@@ -1,0 +1,11 @@
+openapi: 1.0.0
+info:
+  title: Minha API
+  version: 1.0.0
+paths:
+  /users:
+    get:
+      summary: Retorna todos os usuários
+      responses:
+        '200':
+          description: Sucesso
